@@ -18,13 +18,13 @@ scene.moon.show = false;
 // Remove credits
 viewer._cesiumWidget._creditContainer.style.display = "none";
 
-Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhZTNmOGJmZC0zOTcwLTRhMzYtOTEyMC1jYjc5Yzc5YTcwODMiLCJpZCI6MjY4NTE0LCJpYXQiOjE3MzY3MTg2NzB9.X6fIDdZkrPlD5AGjASkJ-IerCu1BLe8IIQLrwJku4LQ";	
-Cesium.BingMapsApi.defaultKey = "Alv1EKBQ_szZVwQlUEazsdfZXHQOi7LdwsFeMm-91ULl-4pOfN5m8eatUPhcHVyS"
+//Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhZTNmOGJmZC0zOTcwLTRhMzYtOTEyMC1jYjc5Yzc5YTcwODMiLCJpZCI6MjY4NTE0LCJpYXQiOjE3MzY3MTg2NzB9.X6fIDdZkrPlD5AGjASkJ-IerCu1BLe8IIQLrwJku4LQ";	
+//Cesium.BingMapsApi.defaultKey = "Alv1EKBQ_szZVwQlUEazsdfZXHQOi7LdwsFeMm-91ULl-4pOfN5m8eatUPhcHVyS"
 
 
 // 1. Add 3D Tileset (Highest Rendering Priority)
 	
-	const tileset = Cesium.ImageryLayer.fromProviderAsync(Cesium.IonImageryProvider.fromAssetId(2));
+	//const tileset = Cesium.ImageryLayer.fromProviderAsync(Cesium.IonImageryProvider.fromAssetId(2));
 
 // 2. Load GeoJSON DataSource (Polygons Above Imagery)
 Cesium.GeoJsonDataSource.load(
